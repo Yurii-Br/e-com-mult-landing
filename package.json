@@ -1,0 +1,31 @@
+{
+  "name": "e-commerce-multi-landing",
+  "version": "1.0.0",
+  "description": "A multi-landing e-commerce platform for small businesses without payment systems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yurii-Br/e-com-mult-landing.git"
+  },
+  "keywords": [
+    "e-commerce",
+    "multi-landing",
+    "children",
+    "toys",
+    "online",
+    "store"
+  ],
+  "author": "Yurii Br",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yurii-Br/e-com-mult-landing/issues"
+  },
+  "homepage": "https://github.com/Yurii-Br/e-com-mult-landing#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "normalize.css": "^8.0.1"
+  }
+}
