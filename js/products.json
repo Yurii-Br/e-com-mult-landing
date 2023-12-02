@@ -1,0 +1,62 @@
+[
+    {
+        "link-to-the-page":"https://organaizer.ukraine-trends.space/",
+        "image-url":"./image/blend-raf.png",
+        "title":"Блендер-Raf1000w 3 в 1",
+        "short-description":"Короткий опис товару, який зацікавить покупця або опис, який давить на болі цільової аудиторії",
+        "old-price":"2100",
+        "new-price":"1045",
+        "discount-size":"50"
+    },
+
+    {
+     "link-to-the-page":"https://organaizer.ukraine-trends.space/",
+     "image-url":"./image/organaizer.jpg",
+     "title":"Органайзер для круп",
+     "short-description":"Короткий опис товару, який зацікавить покупця або опис, який давить на болі цільової аудиторії",
+     "old-price":"800",
+     "new-price":"699",
+     "discount-size":"20"
+    },
+
+    {   
+     "link-to-the-page":"https://organaizer.ukraine-trends.space/",
+     "image-url":"./image/cup.png",
+     "title":"Комплект тарілок 5шт",
+     "short-description":"Короткий опис товару, який зацікавить покупця або опис, який давить на болі цільової аудиторії",
+     "old-price":"",
+     "new-price":"299",
+     "discount-size":""
+    },
+
+    {
+        "link-to-the-page":"https://organaizer.ukraine-trends.space/",
+        "image-url":"./image/blend-raf.png",
+        "title":"Блендер-Raf1000w 3 в 1",
+        "short-description":"Короткий опис товару, який зацікавить покупця або опис, який давить на болі цільової аудиторії",
+        "old-price":"2100",
+        "new-price":"1045",
+        "discount-size":"50"
+    },
+
+    {
+     "link-to-the-page":"https://organaizer.ukraine-trends.space/",
+     "image-url":"./image/organaizer.jpg",
+     "title":"Органайзер для круп",
+     "short-description":"Короткий опис товару, який зацікавить покупця або опис, який давить на болі цільової аудиторії",
+     "old-price":"800",
+     "new-price":"699",
+     "discount-size":"20"
+    },
+
+    {   
+     "link-to-the-page":"https://organaizer.ukraine-trends.space/",
+     "image-url":"./image/cup.png",
+     "title":"Комплект тарілок 5шт",
+     "short-description":"Короткий опис товару, який зацікавить покупця або опис, який давить на болі цільової аудиторії",
+     "old-price":"",
+     "new-price":"299",
+     "discount-size":""
+    }
+
+]

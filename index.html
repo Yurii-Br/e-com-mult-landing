@@ -12,85 +12,72 @@
      <meta property="og:image" content="./image/Grimms.jpg">
      <meta property="og:url" content="URL вашого веб-сайту">
  
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/ico" href="./favicon.ico">
     <title>Магазин Дитячих Іграшок в Україні - Mr. Toys</title>
 </head>
 <body>
-<!--header -->
- <header class="head">
-    <div class="head-wrapp container">
-    <!-- logo -->
-   <div class="logo"><a href="" class="link-logo"><svg class="logo-svg" width="100" height="44">
-     <use href="./image/symbol-defs.svg#icon-logo"></use>
-   </svg></a>
- </div>
- <!-- navigation -->
- <nav class="navigation">
-    <ul class="nav-list">
-
-        <li class="nav-comp">
-            <a href="" class="nav-link">Головна</a>
-        </li>
-
-        <li class="nav-comp">
-            <a href="" class="nav-link">Категорії</a>
-        </li>
-
-        <li class="nav-comp">
-            <a href="" class="nav-link">Акції</a>
-        </li>
-
-        <li class="nav-comp">
-            <a href="" class="nav-link">Оплата та Доставка</a>
-        </li>
-        
-        <li class="nav-comp">
-            <a href="" class="nav-link">Контакти</a>
-        </li>
-    </ul>
- </nav>
- <button type="button" class="btn-menu"><svg class="" width="40" height="40">
-   <use href="./image/symbol-defs.svg#icon-menu"></use>
- </svg></button>
- <div class="burger"> 
-    <nav class="navigation">
-    <ul class="nav-list">
-
-        <li class="nav-comp">
-            <a href="" class="nav-link">Головна</a>
-        </li>
-
-        <li class="nav-comp">
-            <a href="" class="nav-link">Категорії</a>
-        </li>
-
-        <li class="nav-comp">
-            <a href="" class="nav-link">Акції</a>
-        </li>
-
-        <li class="nav-comp">
-            <a href="" class="nav-link">Оплата та Доставка</a>
-        </li>
-        
-        <li class="nav-comp">
-            <a href="" class="nav-link">Контакти</a>
-        </li>
-    </ul>
- </nav></div>
- <!-- backet icon  -->
- <a href="" class="backet"><svg class="bask-icon" width="40" height="40">
-   <use href="./image/symbol-defs.svg#icon-basket"></use>
-
- </svg></a>
- </div>
+<!--шапка сайту -->
+<header class="text-center head">
+    <!-- логотип -->
+    <h1 class="logo">Piramidka Shop</h1>
 </header>
+<!--кінець шапки сайту -->
 
+<!-- основний контент сайту  -->
 <main>
     
+    <section class="container mt-5 ">
+        <div class="row g-5 gy-5" id="product-container">
+
+        </div>          
+    </section>
+
 </main>
+<!-- кінець основного контенту сайту  -->
 
-<footer></footer>
+    <!-- Футер -->
+    <footer class="bg-dark text-white py-4 foot">
+        <div class="container text-center">
+            <h5>Piramidka Shop</h5>
+            <p>Адреса: Одесса, вул. Центральна, буд. 123</p>
+            <p>Телефон: +380123456789</p>
+            <p>Email: info@piramidkashop.com</p>
+    
+            <nav class="navbar navbar-expand-lg navbar-dark mt-4">
+                <button class="navbar-toggler" style="margin-left: auto;margin-right: auto;" type="button" data-bs-toggle="collapse" data-bs-target="#footerNav" aria-controls="footerNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="bi bi-arrow-down-circle"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="footerNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="./index.html">Головна</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Політика конфіденційності</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Файли cookie</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Публічна оферта</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Оплата та доставка</a>
+                        </li>
+                    </ul>
 
+                </div>
+            </nav>
+        </div>
+    </footer>
+     <!-- кінець футера -->
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/notiflix/dist/notiflix.min.js"></script>
+<script src="./js/index.js"></script>
 </body>
 </html>

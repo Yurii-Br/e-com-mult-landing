@@ -1,9 +1,5 @@
 
-:root{
-    --bg-color:#FFF9E9;
-    --nav-color:#014AB7;
-    --nav-hov-color:#DBD200;
-}
+
 *,
 *::before,
 *::after {
@@ -12,72 +8,92 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    width: 100%;
+/* шрифти  */
+/* для параграфів */
+@font-face {
+    font-family: 'Roboto'; 
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype'); 
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype'); 
 }
-@media screen and (min-width:576px) and (max-width:767px) {
- 
+/* для заголовків */
+@font-face {
+    font-family: 'Playfair Display'; 
+    src: url('../fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype'); 
+
 }
+/* заголовки */
+h1,h2,h3,h4 {
+    font-family: 'Playfair Display',serif;
+    font-weight: 800;
+}
+/* все інше */
+p,a,span,ul,ol{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+/* стилі шапки сайту */
 .head {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.50);
-    background-color:var(--bg-color);
+    background-color: #003468; 
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.1);
 }
-.head-wrapp{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+/* стилі логотипа */
 .logo {
-    margin-left: 20px;
-}
-@media screen and (max-width:767px) {
-    .logo {
-        margin-left: 10px;
-    }
-}
-.btn-menu{
-    background: none;
-    border: none;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); 
 }
 
-.link-logo{
+body{
+ background-image: url(../image/v856-kul-10.jpg);
+ background-position: center;
+ background-repeat: repeat;
+ background-size: cover;
+}
+/* стилі карточки  */
+
+.hov-card{
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.315);
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.272);
+}
+.hov-card:hover{
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.315);
+    transition: box-shadow 0.2s ease-in;
+}
+/* стилі кнопки на карточці  */
+.cart-btn{
+    background-color:#003468 ;
+}
+.cart-btn:hover .card-btn-icon{
+    transform: scale(1.2); /* або інший масштаб, який вам потрібен */
+    transition: transform 0.3s ease-in-out;
+}
+.card-btn-icon{
+    fill: #ffffff;
+}
+/* стилі картки акційної */
+.ribbon {
+    position: absolute;
+    right: 0px;
+    top: -15px;
+    border-radius: 100%;
+    background-color: rgb(13, 113, 0);
+    color: #fff;
+    font-size: 24px;
+    padding: 18px 10px;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.ribbon span {
     display: inline-block;
-    width: 100%;
-    height: 100%;
 }
 
-.nav-list {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-
-}
-@media screen and (max-width:767px) {
-    .navigation {
-   display: none;
-
-    }
-}
-.nav-comp {
-color: var(--nav-color);
-font-family: "Open Sans",sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.nav-comp:hover,.nav-comp:focus,.nav-comp:active {
-    color: var(--nav-hov-color);
-}
-.nav-link {
-}
-.backet {
-    margin-right: 40px;
-}
-@media screen and (max-width:767px) {
-    .backet {
-        margin-right: 10px;
-    }
-}
-.bask-icon {
+/* стилі футера */
+.foot{
+    margin-top: 48px;
+    background-color: #111111; 
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 -8px 4px rgba(0, 0, 0, 0.1);
 }
